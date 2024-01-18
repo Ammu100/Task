@@ -1,11 +1,18 @@
+import { Card } from 'antd'
 import React from 'react'
 
 const index = () => {
+
+ 
+  
+
   return (
-    <div>
-      ik,gffgd
-    </div>
+    <>
+      <Card>
+
+      </Card>
+    </>
   )
-}
+  }
 
 export default index

@@ -42,10 +42,6 @@ const CountryStateCityDropdowns = () => {
     setSelectedCity(value);
   };
 
-  // const handleSubmit = (values) => {
-  //   console.log('Form submitted with values:', values);
-  //   alert(`Country: ${selectedCountry}, State: ${selectedState},City: ${selectedCity}`);
-  // };
   const handleSubmit = (values) => {
     console.log("Form submitted with values:", values);
     alert(
@@ -82,7 +78,6 @@ const CountryStateCityDropdowns = () => {
               ]}
               value={selectedState}
               onChange={handleStateChange}
-              disabled={!selectedCountry}
             />
           </Form.Item>
 
@@ -99,7 +94,6 @@ const CountryStateCityDropdowns = () => {
               ]}
               value={selectedCity}
               onChange={handleCityChange}
-              disabled={!selectedState}
             />
           </Form.Item>
 
