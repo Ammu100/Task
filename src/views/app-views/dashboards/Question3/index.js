@@ -22,9 +22,9 @@ const ContactUs = () => {
 
   return (
     <>
-      {/* <div className="" style={{ marginBottom: "20px", fontSize: "20px" }}>
+      <div className="" style={{ marginBottom: "20px", fontSize: "20px" }}>
         <b>4.	Create Contact page design & create listing also.</b>
-      </div> */}
+      </div>
       <Card style={{ width: '500px' }}>
         <Form
           form={form}

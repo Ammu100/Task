@@ -7,7 +7,7 @@ const FormComponent = () => {
   const [form] = Form.useForm();
 
   const handleInputChange = (allValues) => {
-    //console.log(allValues);
+    
   };
 
   const handleSubmit = (values) => {
@@ -18,12 +18,12 @@ const FormComponent = () => {
 
   return (
     <>
-      {/* <div className="" style={{ marginBottom: "20px", fontSize: "20px" }}>
+      <div className="" style={{ marginBottom: "20px", fontSize: "20px" }}>
         <b>
           12. Create a from multiple input box , 2-3 image upload , 2-3 dropdown
           , 2 radio button , 2 checkbox need to be submit by php.
         </b>
-      </div> */}
+      </div>
       <Card style={{width:"500px"}}>
         <Form
           form={form}

@@ -17,9 +17,9 @@ const Dashboard = () => {
 
   return (
     <>
-      {/* <div className="" style={{ marginBottom: "20px", fontSize: "20px" }}>
+      <div className="" style={{ marginBottom: "20px", fontSize: "20px" }}>
         <b>10. Create a dashboard View & API static.</b>
-      </div> */}
+      </div>
       <Row gutter={16}>
         <Col xs={24} sm={8}>
           <Card className="text-center">
